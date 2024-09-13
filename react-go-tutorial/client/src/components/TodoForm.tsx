@@ -10,6 +10,9 @@ const TodoForm = () => {
 		e.preventDefault();
 		alert("Todo added!");
 	};
+
+  
+
 	return (
 		<form onSubmit={createTodo}>
 			<Flex gap={2}>
